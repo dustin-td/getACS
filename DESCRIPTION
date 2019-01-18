@@ -1,0 +1,15 @@
+Package: getACS
+Title: Get ACS data using API
+Version: 1.0
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Description: What the package does (one paragraph).
+Depends: R (>= 3.5.1),
+  data.table
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports:
+  httr,
+  XML,
+  jsonlite
+RoxygenNote: 6.1.1
